@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Obren & Yuay Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Simply Countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bigger-picture@1.1.17/dist/bigger-picture.min.css"
+    />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex flex-column justify-content-center align-items-center text-white"
+    >
+      <main class="content-top">
+        <h2>Undangan Pernikahan</h2>
+        <h1>Obren & Yuay</h1>
+        <h4>
+          Rabu, <br />
+          1 Oktober 2025
+        </h4>
+      </main>
+      <div class="content-bottom mt-5">
+        <h4>Kepada</h4>
+        <span class="mt-2" style="font-weight: bold">Bapak/Ibu/Saudara/i </span>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"
+          >Lihat Undangan</a
+        >
+      </div>
+    </section>
+    <nav
+      class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Obren & Yuay</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Obren & Yuay
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#gallery">Galeri</a>
+              <a class="nav-link d-none" href="#gift">Gift</a>
+              <a class="nav-link" href="#komen">Ucapan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 text-center">
+            <h2>The Wedding</h2>
+            <br />
+            <p style="font-size: 1.1rem;"> 
+              Dengan segala hormat, kami bermaksud mengundang Bapak/Ibu,
+              Saudara/i, untuk hadir pada acara pernikahan kami.
+            </p>
+          </div>
+          <div class="row couple">
+            <div class="col-lg-6">
+              <div class="row d-flex align-items-center">
+                <div class="col-8 mx-auto text-end">
+                  <h3 style="margin-bottom: 0px">Robby Suarno Adi Putra</h3>
+                  <span>Obren</span>
+                  <p style="margin-top: 5px">
+                    Putra dari Bapak Nano Suarno (Alm) <br />
+                    dan <br />
+                    Ibu Umi Dini Nurhayati
+                  </p>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="img/pria1.png"
+                    alt="Robby Suarno Adi Putra"
+                    class="img-responsive rounded-circle"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="heart"><i class="bi bi-heart-fill"></i></span>
+            <div class="col-lg-6">
+              <div class="row d-flex align-items-center indri">
+                <div class="col-4">
+                  <img
+                    src="img/wanita1.png"
+                    alt="Ayu Trisna Fitriani"
+                    class="img-responsive rounded-circle"
+                  />
+                </div>
+                <div class="col-8">
+                  <h3 style="margin-bottom: 0px">Ayu Trisna Fitriani</h3>
+                  <span>Yuay</span>
+                  <p style="margin-top: 5px">
+                    Putri dari Bapak Dadang Atan Firmansyah<br />
+                    dan <br />
+                    Ibu Ani Kania Dewi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center">
+            <h2>Countdown</h2>
+            <div
+              class="simply-countdown align-items-center d-flex justify-content-center"
+            ></div>
+
+            <br />
+            <p class="alamat pb-2" style="font-size: 1.1rem;">
+              Dengan memohon rahmat dan ridho Allah SWT, kami mengharapkan
+              kehadiran serta doa restu Bapak/Ibu/Saudara/i pada acara Akad dan Resepsi
+              Pernikahan kami yang Insya Allah akan diselenggarakan pada :
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div
+            class="d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="img/SVG/bunga2.svg"
+              class="bunga"
+              alt="Bunga"
+              style="max-height: 100px"
+            />
+            <!-- Ganti dengan path ke file SVG Anda -->
+          </div>
+          <div class="col-lg-6">
+            <hr />
+            <h3>Akad & Resepsi</h3>
+            <span class="p-2 fw-bold" style="font-size: 2rem;">Rabu, 1 Oktober 2025 </span>
+            <i class="bi bi-clock d-block p-1" style="font-style: normal;">
+              <span class="p-2">Pukul : 09.00 - Selesai </span></i
+            >
+            <i class="bi bi-geo-alt d-block p-1" style="font-style: normal;"
+              ><span class="p-2"
+                >Kp. Pangragajian RT03 / RW 09, Desa Kayuambon <br> Kec. Lembang <br> Kab. Bandung Barat</span
+              >
+            </i>
+            <i class="bi d-block p-1" style="font-style: normal; color:#f14e95;"
+              ><span class="p-2 fw-bold"
+                >Bertempat di Kediaman Mempelai Wanita</span
+              >
+            </i>
+            <a
+              href="https://maps.app.goo.gl/v7RUbhurs2euJyPo7"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik Untuk Membuka Peta</a
+            >
+            <!-- Embedded map (Google Maps iframe). Ganti q=... atau paste iframe dari Google Maps -> Share -> Embed a map -->
+            <div class="map-responsive my-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1177.7999000005548!2d107.6307882260652!3d-6.814694022868361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDgnNTMuOSJTIDEwN8KwMzcnNTEuMCJF!5e0!3m2!1sen!2sid!4v1758646680691!5m2!1sen!2sid"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <hr />
+                                  <div
+            class="bunga2 d-none justify-content-center align-items-center col-lg-1 pt-4"
+          >
+            <img
+              src="img/SVG/bunga2.svg"
+              class="bunga2"
+              alt="Bunga"
+              style="max-height: 100px"
+            />
+            <!-- Ganti dengan path ke file SVG Anda -->
+          </div>
+
+          <p class="alamat pt-5" style="font-size: 1.1rem;">
+            Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila,
+            Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restunya
+            kami ucapkan terimakasih.
+          </p>
+          <br>
+
+            <div class="turut-mengundang text-center">
+              <h4>Turut Mengundang</h4>
+              <ul class="undangan-list">
+                <li>- Keluarga besar: Letnan Jendral TNI (Purn) Bapak R Soeyono S (Alm)</li>
+                <li>- Ketua RT 01: Bapak Hamim</li>
+                <li>- Ketua RT 02: Bapak Dudi</li>
+                <li>- Ketua RT 03: Bapak Agus Japar</li>
+                <li>- Ketua RW 09: Bapak Mardi</li>
+                <li>- Ibu Hj. Toti Arlina</li>
+              </ul>
+            </div>
+
+          </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+            <h2>Galeri Foto</h2>
+            <br>
+            <p>"Menciptakan kenangan adalah hadiah yang tak ternilai harganya
+              dan kenangan akan bertahan seumur hidup"            </p>
+          </div>
+        </div>
+        <div class="row row-cols-3 justify-content-center">
+          <div id="images">
+                        <a
+              href="img/galeri/6.png"
+              data-img="img/galeri/6.png"
+              data-thumb="img/galeri/6.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/6.png" alt="" />
+            </a>
+                        <a
+              href="img/galeri/8.png"
+              data-img="img/galeri/8.png"
+              data-thumb="img/galeri/8.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/8.png" alt="" />
+            </a>
+            <a
+              href="img/galeri/1.png"
+              data-img="img/galeri/1.png"
+              data-thumb="img/galeri/1.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/1.png" alt="" />
+            </a>
+            <a
+              href="img/galeri/2.png"
+              data-img="img/galeri/2.png"
+              data-thumb="img/galeri/2.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/2.png" alt="" />
+            </a>
+            <a
+              href="img/galeri/3.png"
+              data-img="img/galeri/3.png"
+              data-thumb="img/galeri/3.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/3.png" alt="" />
+            </a>
+            <a
+              href="img/galeri/4.png"
+              data-img="img/galeri/4.png"
+              data-thumb="img/galeri/4.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/4.png" alt="" />
+            </a>
+            <a
+              href="img/galeri/5.png"
+              data-img="img/galeri/5.png"
+              data-thumb="img/galeri/5.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/5.png" alt="" />
+            </a>
+
+            <a
+              href="img/galeri/7.png"
+              data-img="img/galeri/7.png"
+              data-thumb="img/galeri/7.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/7.png" alt="" />
+            </a>
+
+                        <a
+              href="img/galeri/9.png"
+              data-img="img/galeri/9.png"
+              data-thumb="img/galeri/9.png"
+              data-height="1500"
+              data-width="1000"
+              data-alt=""
+            >
+              <img src="img/galeri/9.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="gift" class="gift d-none">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Wedding Gift</h2>
+            <br>
+            <p>
+              Tanpa mengurangi rasa hormat, bagi Bapak/Ibu/saudara/i yang ingin
+              memberikan tanda kasih untuk kami, dapat melalui
+            </p>
+          </div>
+        </div>
+        <div class="bank row justify-content-center text-center mt-3">
+          <div class="col-md-6 col-10 align-items-center mt-3 mb-3">
+            <img
+              src="img/logo/Logo-Bank-BRI.png"
+              alt="BRI"
+              style="max-width: 250px"
+            />
+            <h4 class="black fw-bold">
+              <div class="copy-text d-none" id="textToCopy1">040801031061508</div>
+              <hr />
+              BRI <br />
+              <p style="font-weight: 400">
+                040801031061508 <br />
+                a.n Egi Arrasidi
+              </p>
+              <button class="btn btn-lg" onclick="copyText('textToCopy1')">
+                Salin Nomor
+              </button>
+            </h4>
+          </div>
+          <div class="dana col-md-6 col-10 align-items-center mt-3 mb-3">
+            <img
+              src="img/logo/Logo-Dana.png"
+              alt="BRI"
+              style="max-width: 250px"
+            />
+            <hr />
+            <h4 class="black fw-bold">
+              <div class="copy-text d-none" id="textToCopy2">085523880495</div>
+              DANA <br />
+              <p style="font-weight: 400">
+                0855-2388-0495 <br />
+                Egi Arrasidi
+              </p>
+              <button class="btn btn-lg" onclick="copyText('textToCopy2')">
+                Salin Nomor
+              </button>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id="komen" class="komen bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Ucapan & Doa</h2>
+            <br />
+            <p>Berikan Do'a dan Ucapan terbaik anda kepada kedua mempelai</p>
+          </div>
+          <div class="row col-11 justify-content-center text-center">
+            <h3>Kirim Ucapan</h3>
+            <!-- Form untuk menambahkan komentar -->
+            <form id="commentForm" class="mb-4">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Nama"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  id="comment"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Ucapan"
+                  required
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-lg">Kirim Sekarang</button>
+              </div>
+            </form>
+           </div>
+          <div class="row col-11 justify-content-center py-4" style="border-radius: 10px; background-color: #f5f5f5;">
+            <!-- Section untuk menampilkan komentar -->
+            <div id="commentSection" class="comment-scroll">
+              <div class="comment-list">
+                <!-- Komentar akan ditambahkan di sini secara dinamis -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="penutup" class="penutup">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center mt-3">
+            <img
+              src="img/SVG/bunga2.svg"
+              class=""
+              alt="Bunga"
+              style="max-height: 100px"
+            />
+            <!-- Ganti dengan path ke file SVG Anda -->
+          </div>
+            <h4 class="mt-3 d-flex justify-content-center align-items-center" style="color: #ffffff;">Thank You</h4>
+            <h2 class="d-flex justify-content-center align-items-center" style="color: #f14e95; font-family: 'Cookie'; font-size: 5rem;">Obren & Yuay</h2>
+        </div>
+      </div>
+
+
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <!-- Logo Kecil di Footer -->
+          <div class="logo d-flex justify-content-center align-items-center">
+            <!-- 4 Logo Kecil -->
+            <img src="img/logo/lb.png" alt="Logo 1" class="col-md-2 col-lg-1 col-1 mx-2" />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col text-center justify-content-center">
+            <small class="block">
+              &copy;2023 Obren dan Yuay Wedding. All Rights Reserved
+            </small>
+            <small class="block">
+             <br> Design by <a href="https://www.instagram.com/lbproject_/">@lbproject_</a>
+            </small>
+            <ul class="mt-3 d-flex justify-content-center align-items-center">
+              <li>
+                <a href="https://www.instagram.com/lbproject_/"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@letengbeulel?_t=8bi5TN2fFKx&_r=1"><i class="bi bi-tiktok"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/music.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/bigger-picture@1.1.17/dist/bigger-picture.min.js
+    "></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2.5.1/dist/macy.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function copyText(elementId) {
+        var textToCopy = document.getElementById(elementId).innerText;
+        navigator.clipboard.writeText(textToCopy).then(
+          function () {
+            alert("Nomor berhasil disalin!");
+          },
+          function (err) {
+            alert("Gagal menyalin teks!");
+          }
+        );
+      }
+    </script>
+
+    <script>
+      // Initialize BiggerPicture
+      const bp = BiggerPicture({
+        target: document.body,
+      });
+
+      // Grab image links
+      const imageLinks = document.querySelectorAll("#images > a");
+
+      // Add click listener to open BiggerPicture
+      for (let link of imageLinks) {
+        link.addEventListener("click", openGallery);
+      }
+
+      // Open BiggerPicture
+      function openGallery(e) {
+        e.preventDefault();
+        bp.open({
+          items: imageLinks,
+          el: e.currentTarget,
+        });
+      }
+
+      // Masonry grid using Macy
+      Macy({
+        container: "#images",
+        trueOrder: true,
+        margin: 10,
+        columns: 4,
+        breakAt: {
+          576: {
+            columns: 2,
+          },
+        },
+      });
+    </script>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2025, // required
+        month: 10, // required
+        day: 1, // required
+        hours: 9, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "Hari", plural: "Hari" },
+          hours: { singular: "Jam", plural: "Jam" },
+          minutes: { singular: "Menit", plural: "Menit" },
+          seconds: { singular: "Detik", plural: "Detik" },
+        },
+      });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+        const audioIcon = document.querySelector('.audio-icon-wrapper i');
+        const song = document.querySelector('#song');
+        let isPlaying = false;
+        
+
+      
+        function disableScroll() {
+          // Menyimpan posisi scroll saat ini
+          let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      
+          // Mencegah scroll dengan mengunci posisi
+          window.onscroll = function () {
+            window.scrollTo(scrollTop, scrollLeft);
+          };
+      
+          // Mematikan smooth scroll agar tidak ada animasi saat mencoba scroll
+          rootElement.style.scrollBehavior = 'auto';
+        }
+      
+        function enableScroll() {
+          // Mengembalikan fungsi scroll normal
+          window.onscroll = null; // Menghapus event listener onscroll
+          rootElement.style.scrollBehavior = 'smooth'; // Mengaktifkan smooth scroll
+          playAudio ();
+        }
+
+        function playAudio() {
+         
+          song.volume = 0.1;
+          audioIconWrapper.style.display = 'flex';
+          song.play();
+          isPlaying = true;
+
+        }
+
+        audioIconWrapper.onclick = function() {
+          if(isPlaying) {
+            song.pause();
+            audioIcon.classList.remove('bi-disc');
+            audioIcon.classList.add('bi-pause-circle');
+
+          } else {
+            song.play();
+            audioIcon.classList.add('bi-disc');
+            audioIcon.classList.remove('bi-pause-circle');
+          }
+
+          isPlaying = !isPlaying;
+
+        }
+      
+        // Memanggil disableScroll pada awal
+        disableScroll();
+      </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get("n");
+
+      const namaContainer = document.querySelector(".content-bottom span");
+
+      namaContainer.innerText = nama;
+    </script>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+      import {
+        getDatabase,
+        ref,
+        set,
+        push,
+        onValue,
+      } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyCF4Mf47CKqZc_wQOSUO-QJDweQ8wply2I",
+        authDomain: "egi-dan-indri-wedding.firebaseapp.com",
+        databaseURL:
+          "https://egi-dan-indri-wedding-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "egi-dan-indri-wedding",
+        storageBucket: "egi-dan-indri-wedding.appspot.com",
+        messagingSenderId: "170163803216",
+        appId: "1:170163803216:web:4f4f87ec111626cf922d55",
+        measurementId: "G-FECC3F55FC",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const database = getDatabase(app);
+
+      // Fungsi untuk menambahkan komentar ke database
+      const commentForm = document.getElementById("commentForm");
+
+      commentForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const comment = document.getElementById("comment").value;
+
+        if (name && comment) {
+          const commentsRef = ref(database, "comments");
+          const newCommentRef = push(commentsRef);
+          set(newCommentRef, {
+            name: name,
+            comment: comment,
+            timestamp: Date.now(),
+          }).then(() => {
+            document.getElementById("name").value = "";
+            document.getElementById("comment").value = "";
+          });
+        }
+      });
+
+      const commentSection = document.getElementById("commentSection");
+
+      function getInitials(name) {
+        const nameParts = name.split(" ");
+        const initials =
+          nameParts[0][0] + (nameParts[1] ? nameParts[1][0] : "");
+        return initials.toUpperCase();
+      }
+
+      // Fungsi hashing untuk menghasilkan warna tetap berdasarkan nama
+      function hashStringToColor(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+          hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        const color = `#${((hash >> 24) & 0xff)
+          .toString(16)
+          .padStart(2, "0")}${((hash >> 16) & 0xff)
+          .toString(16)
+          .padStart(2, "0")}${((hash >> 8) & 0xff)
+          .toString(16)
+          .padStart(2, "0")}`;
+        return color.substring(0, 7); // Memastikan panjang 7 karakter (# + 6 digit hex)
+      }
+
+      const commentsRef = ref(database, "comments");
+      onValue(commentsRef, (snapshot) => {
+        commentSection.innerHTML = ""; // Reset section
+
+        const comments = [];
+        snapshot.forEach((childSnapshot) => {
+          comments.push(childSnapshot.val());
+        });
+
+        comments.reverse();
+
+        comments.forEach((commentData) => {
+          const commentElement = document.createElement("div");
+          commentElement.classList.add(
+            "d-flex",
+            "mb-3",
+            "align-items-start",
+            "comment-container"
+          );
+
+          const timeAgoText = timeAgo(commentData.timestamp);
+
+          const initials = getInitials(commentData.name);
+          const backgroundColor = hashStringToColor(commentData.name);
+
+          commentElement.innerHTML = `
+      <div class="profile-initial me-3" style="background-color: ${backgroundColor};">
+        ${initials}
+      </div>
+        <div id="namakomen" class="col comment-bubble">
+          <strong>${commentData.name}</strong>
+          <p id="isikomen">${commentData.comment}</p>
+          <div id="waktu" class="text-muted">
+            <i class="bi bi-clock"></i> ${timeAgoText}
+          </div>
+        </div>
+      `;
+
+          commentSection.appendChild(commentElement);
+        });
+      });
+
+      // Fungsi untuk menghitung waktu relatif (seperti "3 menit yang lalu")
+      function timeAgo(timestamp) {
+        const now = Date.now();
+        const secondsPast = (now - timestamp) / 1000;
+
+        if (secondsPast < 60) {
+          return "Baru saja"; // Menampilkan "baru saja" untuk komentar yang kurang dari 1 menit
+        }
+        if (secondsPast < 3600) {
+          return `${Math.floor(secondsPast / 60)} menit yang lalu`;
+        }
+        if (secondsPast < 86400) {
+          return `${Math.floor(secondsPast / 3600)} jam yang lalu`;
+        }
+        if (secondsPast < 2592000) {
+          return `${Math.floor(secondsPast / 86400)} hari yang lalu`;
+        }
+        if (secondsPast < 31536000) {
+          return `${Math.floor(secondsPast / 2592000)} bulan yang lalu`;
+        }
+        return `${Math.floor(secondsPast / 31536000)} tahun yang lalu`;
+      }
+    </script>
+  </body>
+</html>
